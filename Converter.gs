@@ -12,10 +12,10 @@ const converter = () => {
 
   // this is the scriptId of the input project that needs its libraries inlined
   // it's my gasgit project
-  const scriptId = '1TphrUjRcx5sGlhgkfjB2R9MOZe3cPF7wK1LV8yVNoFCAwRTeNyXVsDFd'
+  const scriptId = '11ktzauPNsZ2jq2EO4dhO9T0Rs-3qBn_lqwMNZc4osv1Myi7qD7dLd2j2'
 
   // this is where to write the inlined project - it could be the same as the input scriptId
-  const newScriptId = scriptId // '1fBU_YHk4LpQbuPqYOLlRXsqlP_ECgHAYVdbDa9oPhgwwnTaD0uBwHMRN'
+  const newScriptId =  '1fBU_YHk4LpQbuPqYOLlRXsqlP_ECgHAYVdbDa9oPhgwwnTaD0uBwHMRN'
 
   /*
    * alternatively you could create a brand new project and use its id like this
@@ -32,8 +32,9 @@ const converter = () => {
    */
   const files = limporter.getInlineProjectFiles({ 
     scriptId, 
-    versionTreatment: 'sloppyupgrade',
-    noCache: true
+    versionTreatment: 'head',
+    noCache: true,
+    
    })
 
 
