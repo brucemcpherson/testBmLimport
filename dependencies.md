@@ -1,5 +1,5 @@
 # Google Apps Script Project: testBmLimport
-This repo (testBmLimport) was automatically updated on 3/6/2022, 5:12:23 PM by GasGit
+This repo (testBmLimport) was automatically updated on 3/14/2022, 1:59:12 PM by GasGit
 
 For more information on gasgit, see the [desktop liberation site](https://ramblings.mcpher.com/drive-sdk-and-github/migrategasgit/ "desktop liberation")
 
@@ -18,19 +18,21 @@ The shared link for [testBmLimport is here](https://script.google.com/d/11ktzauP
 appsscript| json
 Converter| server_js
 Reverter| server_js
+RevertConvert| server_js
 ### Directly referenced libraries
 *library*|*identifier*|*key*|*version*|*dev mode*|*source*|
 --- | --- | --- | --- | --- | --- 
-bmLimporter| bmLimporter|18vZDGy1YTRsMSraL2Rj2haSrJzRegIUv2mCgMwDHFu5uobx6chyXnQV8|3|no|[here](libraries/bmLimporter "library source")
+bmLimporter| bmLimporter|18vZDGy1YTRsMSraL2Rj2haSrJzRegIUv2mCgMwDHFu5uobx6chyXnQV8|4|no|[here](libraries/bmLimporter "library source")
 ### All dependencies and sub dependencies
 *library*|*identifier*|*key*|*version*|*dev mode*|*source*|
 --- | --- | --- | --- | --- | --- 
-bmLimporter| bmLimporter|18vZDGy1YTRsMSraL2Rj2haSrJzRegIUv2mCgMwDHFu5uobx6chyXnQV8|3|no|[here](libraries/bmLimporter "library source")
-bmImportScript| bmImportScript|1LKm0bAC7d7KRD958B2B4bcjJ4o1sCwYZAu95s_vV0zSWy0A37BVGIUJH|5|no|[here](libraries/bmImportScript "library source")
-bmCrusher| bmCrusher|1nbx8f-kt1rw53qbwn4SO2nKaw9hLYl5OI3xeBgkBC7bpEdWKIPBDkVG0|20|no|[here](libraries/bmCrusher "library source")
-bmUpstash| bmUpstash|1GBZYWotLe5-pVord4fe5DCl6pwGz1BiDjAqA0AE812_qy6XTWmWeZNX-|6|no|[here](libraries/bmUpstash "library source")
-cGcsStore| cGcsStore|1w0dgijlIMA_o5p63ajzcaa_LJeUMYnrrSgfOzLKHesKZJqDCzw36qorl|10|no|[here](libraries/cGcsStore "library source")
-cUseful| cUseful|1EbLSESpiGkI3PYmJqWh3-rmLkYKAtCNPi1L2YCtMgo2Ut8xMThfJ41Ex|129|no|[here](libraries/cUseful "library source")
+bmLimporter| bmLimporter|18vZDGy1YTRsMSraL2Rj2haSrJzRegIUv2mCgMwDHFu5uobx6chyXnQV8|4|no|[here](libraries/bmLimporter "library source")
+bmImportScript| bmImportScript|1LKm0bAC7d7KRD958B2B4bcjJ4o1sCwYZAu95s_vV0zSWy0A37BVGIUJH|6|no|[here](libraries/bmImportScript "library source")
+bmCrusher| bmCrusher|1nbx8f-kt1rw53qbwn4SO2nKaw9hLYl5OI3xeBgkBC7bpEdWKIPBDkVG0|22|no|[here](libraries/bmCrusher "library source")
+bmUpstash| bmUpstash|1GBZYWotLe5-pVord4fe5DCl6pwGz1BiDjAqA0AE812_qy6XTWmWeZNX-|7|no|[here](libraries/bmUpstash "library source")
+cGcsStore| cGcsStore|1w0dgijlIMA_o5p63ajzcaa_LJeUMYnrrSgfOzLKHesKZJqDCzw36qorl|13|no|[here](libraries/cGcsStore "library source")
+cUseful| cUseful|1EbLSESpiGkI3PYmJqWh3-rmLkYKAtCNPi1L2YCtMgo2Ut8xMThfJ41Ex|130|no|[here](libraries/cUseful "library source")
+bmAcorn| bmAcorn|14oo1VEGy8Ggp7jCZR9YPSFHxU_jj5F0GcM6nsS_CR2YlT6Ej5ACHu1jE|1|no|[here](libraries/bmAcorn "library source")
 ### Enabled Google Services
 no libraries discovered
 ### Scopes required
