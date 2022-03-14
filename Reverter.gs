@@ -12,10 +12,10 @@ const reverter = () => {
 
   // this is the scriptId of the input project that needs its libraries inlined
   // it's my inlined project
-  const inlinedId = '1TphrUjRcx5sGlhgkfjB2R9MOZe3cPF7wK1LV8yVNoFCAwRTeNyXVsDFd'
+  const inlinedId = '1fBU_YHk4LpQbuPqYOLlRXsqlP_ECgHAYVdbDa9oPhgwwnTaD0uBwHMRN'
 
   // this is where to write the inlined project - it could be the same as the input scriptId
-  const revertedId = '1TphrUjRcx5sGlhgkfjB2R9MOZe3cPF7wK1LV8yVNoFCAwRTeNyXVsDFd'
+  const revertedId = '1Bq9cO6YpXnTXv0MGqQGAq2nuqAVWE9C8c_vqsYGJx7YSCmo2E3i4FJIC'
   console.log('reverting to ', revertedId)
   
   /*
