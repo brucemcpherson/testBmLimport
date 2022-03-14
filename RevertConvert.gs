@@ -25,7 +25,8 @@ const revertConvert = () => {
   const files = limporter.refreshInlineProjectFiles({ 
     scriptId:inlinedId, 
     versionTreatment: 'upgrade',
-    noCache: true
+    noCache: true,
+    exportClasses: true
    })
 
   /*
