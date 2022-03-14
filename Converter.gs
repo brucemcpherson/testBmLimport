@@ -34,7 +34,7 @@ const converter = () => {
     scriptId, 
     versionTreatment: 'head',
     noCache: true,
-    
+    exportClasses: true
    })
 
 
