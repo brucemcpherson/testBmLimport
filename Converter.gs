@@ -32,7 +32,7 @@ const converter = () => {
    */
   const files = limporter.getInlineProjectFiles({ 
     scriptId, 
-    versionTreatment: 'head',
+    versionTreatment: 'respect',
     noCache: true,
     exportClasses: true
    })
